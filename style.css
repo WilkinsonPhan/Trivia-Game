@@ -1,0 +1,86 @@
+/* Write your CSS Here. */
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+    background-color: lightblue;
+}
+
+main {
+    display: block;
+    margin: auto;
+    width: 500px;
+    height: 315px;
+    background-color: lightskyblue;
+    border-style: groove;
+    border-color: blue;
+    padding: 10px;
+}
+
+.user-score {
+    display: flex;
+    justify-content: left;
+    width: 63px;
+    height: 18px;
+    padding: 1px;
+    background-color: palegreen;
+    border-style: groove;
+    border-color: lightgreen;
+}
+
+.correct {
+    color: green;
+}
+
+.wrong {
+    color: red;
+}
+
+.category-box {
+    display: flex;
+    width: 321px;
+    height: 75px;
+    background-color: antiquewhite;
+    border-style: groove;
+    border-color: yellow;
+    margin: 5px auto;
+    padding: 5px;
+}
+
+.clue-box {
+    display: flex;
+    width: 321px;
+    height: 120px;
+    background-color: orange;
+    border-style: groove;
+    border-color: orange;
+    margin: 35px auto;
+    padding: 5px;
+}
+
+.user-form {
+    display: flex;
+    width: 332px;
+    background-color: lightskyblue;
+    border-style: groove;
+    border-color: blue;
+    padding: 5px;
+    margin: 10px auto;
+    justify-content: center;
+}
+
+input {
+    text-align: center;
+}
+
+.hint-div {
+    text-align: center;
+}
